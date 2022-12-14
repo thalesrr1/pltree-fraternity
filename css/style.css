@@ -3,6 +3,7 @@ body {
     height: 100%;
     background: url(../assets/Background.png) no-repeat;
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -16,6 +17,24 @@ main {
     height: 100%;
     text-align: center;
     color: #fff;
+}
+
+#left-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header #title-1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+header #title-2 {
+    font-size: 40px;
+    font-weight: 700;
 }
 
 #right-content{
