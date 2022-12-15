@@ -42,11 +42,14 @@ main {
     justify-content: center;
 }
 
+header {
+    text-align: right;
+}
 
 header #title-1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 74px;
+    font-size: 60px;
     line-height: 73px;
     color: #fff;
     -webkit-text-fill-color: transparent;
@@ -54,8 +57,9 @@ header #title-1 {
 }
 
 header #title-2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
+
 }
 
 #right-content{
@@ -73,7 +77,7 @@ header #title-2 {
 }
 
 .login {
-    height: 490px;
+    height: 600px;
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -83,12 +87,85 @@ header #title-2 {
     border-radius: 10px;
     color: #000;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 60px;
 }
 
 #authentication-sidebar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.btn-login {
-    margin-top: 50px;
+#authentication-sidebar .header {
+    text-align: left;
+}
+
+.header h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #294430;
+}
+
+.username, .password {
+    text-align: left;
+}
+
+.username input, .password input{
+    width: 100%;
+    height: 60px;
+    font-weight: 400;
+    font-size: 22px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline-color: #857373;
+}
+
+.username input::placeholder, .password input::placeholder{
+    color: #857373;
+}
+
+
+.btn-login a {
+    text-align: right;
+    color: #857373;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn-login input {
+    width: 100%;
+    height: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+    background-color: #294430;
+    border-radius: 10px;
+    border-color: #294430;
+    cursor: pointer;
+    transition: 0.5ms;
+    margin-top: 20px;
+}
+
+.btn-login input:hover {
+    color: #294430;
+    background-color: #D9D9D9;
+}
+
+.register {
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 20px;
+    color: #000;
+}
+
+.register a {
+    text-decoration: none;
+    color: #294430;
+    font-weight: bold;
 }
