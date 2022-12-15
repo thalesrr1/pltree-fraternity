@@ -151,15 +151,15 @@ header #title-2 {
     color: #fff;
     background-color: #294430;
     border-radius: 10px;
-    border-color: #294430;
+    border-color: transparent;
     cursor: pointer;
     transition: 0.5ms;
     margin-top: 20px;
 }
 
 .btn-login input:hover {
-    color: #294430;
-    background-color: #D9D9D9;
+    color: #fff;
+    background-color: #1C2E20;
 }
 
 .register {
@@ -173,4 +173,5 @@ header #title-2 {
     text-decoration: none;
     color: #294430;
     font-weight: bold;
+    font-size: 24px;
 }
