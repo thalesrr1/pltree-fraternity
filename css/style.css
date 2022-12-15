@@ -110,6 +110,10 @@ header #title-2 {
     color: #294430;
 }
 
+.form-container form div {
+    margin-top: 20px;
+}
+
 .username, .password {
     text-align: left;
 }
@@ -119,6 +123,7 @@ header #title-2 {
     height: 60px;
     font-weight: 400;
     font-size: 22px;
+    margin-top: 12px;
     background: #D9D9D9;
     border-radius: 10px;
     border: 1px solid transparent;
