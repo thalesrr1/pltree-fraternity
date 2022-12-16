@@ -1,3 +1,6 @@
+@import url("reset.css");
+@import url("reg-rec.css");
+
 @import url("https://p.typekit.net/p.css?s=1&k=bgb3bej&ht=tk&f=16353.37464&a=117898963&app=typekit&e=css");
 
 @font-face {
@@ -12,7 +15,14 @@ src:url("https://use.typekit.net/af/2180b4/00000000000000007735a193/30/l?primer=
 font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
 }
 
+@font-face {
+    font-family:"montserrat";
+    src:url("https://use.typekit.net/af/73dbad/00000000000000007735a197/30/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/73dbad/00000000000000007735a197/30/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/73dbad/00000000000000007735a197/30/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+    }
+    
 .tk-montserrat { font-family: "montserrat",sans-serif; }
+
 
 body {
     width: 100%;
@@ -130,7 +140,7 @@ header #title-2 {
     outline-color: #857373;
 }
 
-.username input::placeholder, .password input::placeholder{
+.input-container input::placeholder {
     color: #857373;
 }
 
