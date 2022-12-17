@@ -138,10 +138,14 @@ header #title-2 {
     border-radius: 10px;
     border: 1px solid transparent;
     outline-color: #857373;
+    padding: 0px 20px 0px 40px ;
+    
 }
 
 .input-container input::placeholder {
     color: #857373;
+    text-indent: 13px;
+    
 }
 
 /* form input {
@@ -153,26 +157,23 @@ header #title-2 {
 
 form input[type="email"]{
     background-image: url(/assets/mail.svg);
-    background-position: left center;
+    background-position: 1rem center;
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    padding-left: 30px;
 }
 
 form input[type="password"]{
     background-image: url(/assets/lock.svg);
-    background-position: left center;
+    background-position: 1rem center;
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    padding-left: 30px;
 }
 
 form input[type="name"]{
     background-image: url(/assets/user.svg);
-    background-position: left center;
+    background-position: 1rem center;
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    padding-left: 30px;
 }
 
 
